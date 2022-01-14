@@ -1,0 +1,61 @@
+<!-- 
+
+    Requirements:
+    1.My tribute page should have an element with a corresponding id="main", which contains all other elements. (DONE)
+    2. I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug") (DONE)
+    3. I should see either a figure or a div element with a corresponding id="img-div" (DONE)
+    4. Within the img-div element, I should see an img element with a corresponding id="image" (DONE)
+    5. Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div (DONE)
+    6.  I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. (DONE)
+    7. I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank") (DONE)
+    8. The img element should responsively resize, relative to the width of its parent element, without exceeding its original size (DONE)
+    9. The img element should be centered within its parent element. (DONE)
+    
+    -->
+    <!DOCTYPE html>
+    <html lang="en-us">
+      <head>
+        <meta charset="utf-8">
+        <title>Walt Disney</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+      </head>
+        <body>
+          <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+          <main id="main">
+            <section id="title-description">
+              <h1 id="title">Walter Elias "Walt" Disney</h1>
+              <p> Co-founder of Walt Disney Productions and founder of theme parks Disneyland and Walt Disney world</p>
+            </section>
+            <figure id="img-div">
+              <div id="logo"></div>
+              <img id="image" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F07%2F15%2Fwalt-disney-disneyland-speech-DLANDANNIV0720.jpg" alt="A picture Walt Disney at the opening of Disney in Anaheim, Ca on July 17, 1955.">
+              <br>
+              <figcaption id="img-caption">Walt Disney at the opening of Disneyland in Anaheim on July 17, 1955. 
+              </figcaption>
+            </figure>
+            <section id="tribute-info">
+              <h3>Timeline of Walt Disney</h3>
+               <ul>
+                 <li>1901 - Born in the Hermosa section of Chicago, Illinois</li> 
+                 <li>1911 - his family moved to Kansas City, where Disney developed a love for trains</li>
+                 <li>1918 - joined the Red Cross and was sent to France for a year to drive an ambulance to help with the war effort </li>
+                 <li>1919 - moved to Kansas City and worked as an apprentice artist at the Pesmen-Rubin Commercial Art Studio, where he drew commercial illustrations for advertising, theater programs and catalogs, and befriended fellow artist Ub Iwerks </li>
+                 <li>1920 - Disney and Iwerks started their own business, the short-lived Iwerks-Disney Commercial Artists</li>
+                 <li>1921 - Disney opened a new business with a co-worker from the Film Ad Co, Fred Harman, success led to the establishment of Laugh-O-Gram Studio</li>
+                 <li>1923 - Moved to LA and signed a contract for six Alice comedies, with an option for two further series of six episodes each. This lead to Disney and his brother Roy forming the Disney Brothers Studio‍—which later became The Walt Disney Company‍—to produce the films </li>
+                 <li>1925 - Disney hired an ink artist, Lillian Bounds. They married in July of that year, at her brother's house in her hometown of Lewiston, Idaho.</li>
+                 <li>1927 - Disney and Iwerks developed Mickey Mouse, possibly inspired by a pet mouse that Disney had adopted while working in his Laugh-O-Gram studio, although the origins of the character are unclear</li>
+                 <li>1928 - Disney used synchronized sound on the third short, Steamboat Willie, to create the first post-produced sound cartoon. After the animation was complete, Disney signed a contract with the former executive of Universal Pictures, Pat Powers, to use the "Powers Cinephone" recording system;[61] Cinephone became the new distributor for Disney's early sound cartoons, which soon became popular.</li>
+                 <li>...</li>
+                 <li>...</li>
+                 <li>...</li>
+                 <li>1966, he was diagnosed with lung cancer and was treated with cobalt therapy. Ten days after his 65th birthday, he died of circulatory collapse caused by the cancer</li>
+               </ul>
+              <blockquote>
+                <p>"The way to get started is to quit talking and begin doing."<br>-Walt Disney</p>
+              </blockquote>
+              <h3>To learn more about Walt Disney click here to <a id="tribute-link"  target="_blank" href="https://en.wikipedia.org/wiki/Walt_Disney">learn more</a></h3>
+            </section>
+          </main>
+        </body>
+    </html>

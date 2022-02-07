@@ -1,5 +1,6 @@
 # Tribute Page
-This projects serves as an intro project to HTML and CSS for me.
+This tribute page is an intro project to HTML and CSS. I chose Walt Disney because I liked his quote:
+> The way to get started is to quit talking and begin doing.
 
 ## Requirements
 - [x] My tribute page should have an element with a corresponding id="main", which contains all other elements

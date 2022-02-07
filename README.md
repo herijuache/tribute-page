@@ -1,5 +1,5 @@
 # Tribute Page
-This tribute page is an intro project to HTML and CSS. I chose Walt Disney because I liked his quote:
+This tribute page is an intro project to HTML and CSS. I chose Walt E. Disney because I found the following quote to be inspiring:
 > The way to get started is to quit talking and begin doing.
 
 ## Requirements
